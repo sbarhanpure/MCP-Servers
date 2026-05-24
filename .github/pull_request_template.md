@@ -39,6 +39,15 @@ To publish your server, follow the [quickstart guide](https://github.com/modelco
 - [ ] New and existing tests pass locally
 - [ ] I have added appropriate error handling
 - [ ] I have documented all environment variables and configuration options
+- [ ] For high-risk or non-trivial changes, I requested Codex Cloud review with `@codex review`
+
+Suggested comprehensive prompt:
+
+```text
+@codex review comprehensively. Focus on correctness, tests, security/privacy,
+tenant scoping, migration safety, and deployability. Cite files and lines for
+every finding.
+```
 
 ## Additional context
 <!-- Add any other context, implementation notes, or design decisions -->
